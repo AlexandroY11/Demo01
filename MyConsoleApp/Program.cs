@@ -8,6 +8,9 @@ namespace MyConsoleApp
         {
             MessageWriter MyWriter = new MessageWriter();
             MyWriter.Write("Hello, Writer!");
+
+            FiggleWriter MyFiggle = new FiggleWriter();
+            MyFiggle.Write("Hello, FiggleWriter!!!");
         }
     }
 }
